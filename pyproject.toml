@@ -1,0 +1,13 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posixre"
+version = "1.0.0"
+description = "Predictable, non-backtracking POSIX leftmost-longest regex engine (standard library only)"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["posixre"]
